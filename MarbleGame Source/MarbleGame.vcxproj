@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB71C027-57A9-4DCC-A0CC-31686D2BBA23}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MarbleGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\Libs;$(SolutionDir)\Libs\bullet3D;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\MarbleGame\Classes;$(SolutionDir)\Libs\bullet3D;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(ProjectName)\</OutDir>
+    <IncludePath>$(SolutionDir)\MarbleGame\Classes;$(SolutionDir)\Libs\bullet3D;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Libs;$(SolutionDir)\Libs\bullet3D;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;glee.lib;kazmath.lib;opengl32.lib;glu32.lib;BulletDynamics_vs2010_debug.lib;BulletCollision_vs2010_debug.lib;LinearMath_vs2010_debug.lib;BulletMultiThreaded_Debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>freetype.lib;glee.lib;kazmath.lib;opengl32.lib;glu32.lib;BulletDynamics_vs2010_debug.lib;BulletCollision_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\button.cpp" />
+    <ClCompile Include="Classes\camera.cpp" />
+    <ClCompile Include="Classes\cannon.cpp" />
+    <ClCompile Include="Classes\charlies_scene.cpp" />
+    <ClCompile Include="Classes\collectible.cpp" />
+    <ClCompile Include="Classes\collidable_entity.cpp" />
+    <ClCompile Include="Classes\conveyor.cpp" />
+    <ClCompile Include="Classes\cube.cpp" />
+    <ClCompile Include="Classes\cylinder.cpp" />
+    <ClCompile Include="Classes\entity.cpp" />
+    <ClCompile Include="Classes\file_scene.cpp" />
+    <ClCompile Include="Classes\fracture.cpp" />
+    <ClCompile Include="Classes\freetypefont.cpp" />
+    <ClCompile Include="Classes\frustum.cpp" />
+    <ClCompile Include="Classes\global.cpp" />
+    <ClCompile Include="Classes\gui_image.cpp" />
+    <ClCompile Include="Classes\gui_scene.cpp" />
+    <ClCompile Include="Classes\keyboard.cpp" />
+    <ClCompile Include="Classes\lighting.cpp" />
+    <ClCompile Include="Classes\loading_scene.cpp" />
+    <ClCompile Include="Classes\main_menu.cpp" />
+    <ClCompile Include="Classes\mouse.cpp" />
+    <ClCompile Include="Classes\nicks_scene.cpp" />
+    <ClCompile Include="Classes\OBJmodel.cpp" />
+    <ClCompile Include="Classes\particles.cpp" />
+    <ClCompile Include="Classes\platform.cpp" />
+    <ClCompile Include="Classes\player.cpp" />
+    <ClCompile Include="Classes\scene.cpp" />
+    <ClCompile Include="Classes\scene_graph.cpp" />
+    <ClCompile Include="Classes\scene_manager.cpp" />
+    <ClCompile Include="Classes\sphere.cpp" />
+    <ClCompile Include="Classes\targa.cpp" />
+    <ClCompile Include="Classes\test_scene.cpp" />
+    <ClCompile Include="Classes\test_scene2.cpp" />
+    <ClCompile Include="Classes\trampoline.cpp" />
+    <ClCompile Include="Classes\waypoint.cpp" />
+    <ClCompile Include="Classes\windows\glwindow.cpp" />
+    <ClCompile Include="Classes\windows\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\button.h" />
+    <ClInclude Include="Classes\button_types.h" />
+    <ClInclude Include="Classes\camera.h" />
+    <ClInclude Include="Classes\cannon.h" />
+    <ClInclude Include="Classes\charlies_scene.h" />
+    <ClInclude Include="Classes\collectible.h" />
+    <ClInclude Include="Classes\collidable_entity.h" />
+    <ClInclude Include="Classes\conveyor.h" />
+    <ClInclude Include="Classes\cube.h" />
+    <ClInclude Include="Classes\cube_groups.h" />
+    <ClInclude Include="Classes\cylinder.h" />
+    <ClInclude Include="Classes\entity.h" />
+    <ClInclude Include="Classes\entity_types.h" />
+    <ClInclude Include="Classes\file_scene.h" />
+    <ClInclude Include="Classes\fracture.h" />
+    <ClInclude Include="Classes\freetypefont.h" />
+    <ClInclude Include="Classes\frustum.h" />
+    <ClInclude Include="Classes\geom.h" />
+    <ClInclude Include="Classes\global.h" />
+    <ClInclude Include="Classes\glslshader.h" />
+    <ClInclude Include="Classes\gui_image.h" />
+    <ClInclude Include="Classes\gui_scene.h" />
+    <ClInclude Include="Classes\keyboard.h" />
+    <ClInclude Include="Classes\lighting.h" />
+    <ClInclude Include="Classes\loading_scene.h" />
+    <ClInclude Include="Classes\main_menu.h" />
+    <ClInclude Include="Classes\mouse.h" />
+    <ClInclude Include="Classes\nicks_scene.h" />
+    <ClInclude Include="Classes\OBJmodel.h" />
+    <ClInclude Include="Classes\particles.h" />
+    <ClInclude Include="Classes\particle_types.h" />
+    <ClInclude Include="Classes\platform.h" />
+    <ClInclude Include="Classes\player.h" />
+    <ClInclude Include="Classes\scene.h" />
+    <ClInclude Include="Classes\scene_graph.h" />
+    <ClInclude Include="Classes\scene_manager.h" />
+    <ClInclude Include="Classes\shaders.h" />
+    <ClInclude Include="Classes\sphere.h" />
+    <ClInclude Include="Classes\targa.h" />
+    <ClInclude Include="Classes\test_scene.h" />
+    <ClInclude Include="Classes\test_scene2.h" />
+    <ClInclude Include="Classes\trampoline.h" />
+    <ClInclude Include="Classes\waypoint.h" />
+    <ClInclude Include="Classes\waypoint_types.h" />
+    <ClInclude Include="Classes\windows\glwindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.frag" />
+    <None Include="Shaders\color.vert" />
+    <None Include="Shaders\font.frag" />
+    <None Include="Shaders\font.vert" />
+    <None Include="Shaders\glow.frag" />
+    <None Include="Shaders\glow.vert" />
+    <None Include="Shaders\light.frag" />
+    <None Include="Shaders\light.vert" />
+    <None Include="Shaders\light_tex.frag" />
+    <None Include="Shaders\light_tex.vert" />
+    <None Include="Shaders\light_tex_scroll.frag" />
+    <None Include="Shaders\light_tex_scroll.vert" />
+    <None Include="Shaders\texture.frag" />
+    <None Include="Shaders\texture.vert" />
+    <None Include="Shaders\trampoline.frag" />
+    <None Include="Shaders\trampoline.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

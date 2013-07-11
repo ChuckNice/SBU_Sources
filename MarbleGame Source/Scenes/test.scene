@@ -1,0 +1,34 @@
+# test.scene
+# DO NOT ALLOW ANY OTHER CHARACTERS or CONTROL CHARACTERS ON "EMPTY" LINES
+# USE CAUTION WITH AUTO INDENT IN YOUR TEXT EDITOR
+# this is a comment -ok
+			#(tab tab tab comment) -ok
+
+################ BEGIN LEVEL DESCRIPTION ################
+# center platform			
+push_node
+	platform: 40.0, 1.0, 40.0
+	sh_light: 0.2, 1.0, 4, RAND_COLOR
+	pos: 0.0, 0.0, 0.0
+	end_entity		
+#	waypoint: 0.125, Objects/goal.obj
+#	sh_light: 0.1, 1.0, 4, RAND_COLOR
+#	pos: 0.0, 0.5, 0.0
+#	end_entity
+pop_node
+
+push_node
+	platform: 40.0, 1.0, 40.0
+	pos: 45.0, 3.0, 0.0
+	sh_light: 0.1, 1.0, 4, RAND_COLOR
+	end_entity
+pop_node
+
+push_node
+	platform: 40.0, 1.0, 40.0
+	pos: 90.0, 6.0, 0.0
+	sh_light: 0.1, 1.0, 4, RAND_COLOR
+	end_entity
+pop_node
+
+################ END LEVEL DESCRIPTION ################

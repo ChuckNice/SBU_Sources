@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{e262515b-5ab0-47c6-9109-8b7638ea475a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util">
+      <UniqueIdentifier>{78719f71-8366-49c6-a220-d7c27d82bdf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{c1291b8c-09fb-4421-8400-819ef3ab9e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entities">
+      <UniqueIdentifier>{c7ffb31f-0da2-4baf-a195-4e5b36397645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{baf2a178-39d1-430d-86cb-1a24eaa1dcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GUI">
+      <UniqueIdentifier>{7c3e72f3-7e59-4db8-9702-2d5bdc6affd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\keyboard.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\mouse.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\global.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\camera.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\platform.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\cube.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\test_scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\freetypefont.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\collidable_entity.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\entity.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\scene_graph.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\sphere.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\targa.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\player.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\lighting.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\trampoline.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\cylinder.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\cannon.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\loading_scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\button.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\frustum.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\OBJmodel.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\windows\glwindow.cpp">
+      <Filter>Classes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\windows\main.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\test_scene2.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\conveyor.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\particles.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\gui_image.cpp">
+      <Filter>Classes\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\gui_scene.cpp">
+      <Filter>Classes\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\main_menu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\scene_manager.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\waypoint.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\file_scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\collectible.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\fracture.cpp">
+      <Filter>Classes\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\nicks_scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\charlies_scene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\keyboard.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\mouse.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\global.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\geom.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\camera.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\platform.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\cube.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\glslshader.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\test_scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\freetypefont.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\entity.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\collidable_entity.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\scene_graph.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\sphere.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\targa.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\player.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\lighting.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\shaders.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\trampoline.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\cylinder.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\cannon.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\cube_groups.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\loading_scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\entity_types.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\button.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\button_types.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\frustum.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\OBJmodel.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\windows\glwindow.h">
+      <Filter>Classes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\test_scene2.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\particle_types.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\particles.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\conveyor.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\gui_image.h">
+      <Filter>Classes\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\gui_scene.h">
+      <Filter>Classes\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\main_menu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\scene_manager.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\waypoint.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\file_scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\collectible.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\fracture.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\waypoint_types.h">
+      <Filter>Classes\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\nicks_scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\charlies_scene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\color.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light_tex.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light_tex.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\trampoline.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\trampoline.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\glow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\glow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light_tex_scroll.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\light_tex_scroll.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

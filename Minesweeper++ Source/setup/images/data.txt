@@ -1,0 +1,11 @@
+UNCOVERED_STATE|./setup/images/GameSquare_Uncovered.png
+MOUSE_OVER_STATE|./setup/images/GameSquare_Mouseover.png
+INVISIBLE_STATE|./setup/images/NOTHING.png
+MINE_1_SQUARE_STATE|./setup/images/GameSquare_1.png
+MINE_2_SQUARE_STATE|./setup/images/GameSquare_2.png
+MINE_3_SQUARE_STATE|./setup/images/GameSquare_3.png
+MINE_4_SQUARE_STATE|./setup/images/GameSquare_4.png
+MINE_5_SQUARE_STATE|./setup/images/GameSquare_5.png
+MINE_6_SQUARE_STATE|./setup/images/GameSquare_6.png
+MINE_7_SQUARE_STATE|./setup/images/GameSquare_7.png
+MINE_8_SQUARE_STATE|./setup/images/GameSquare_8.png

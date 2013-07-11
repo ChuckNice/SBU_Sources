@@ -1,0 +1,137 @@
+﻿Build started 1/11/2013 11:16:23 PM.
+     1>Project "D:\~MyProjects\MarbleGame\MarbleGame\MarbleGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MarbleGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\~MyProjects\MarbleGame\\Libs" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Classes\main_menu.cpp
+         main_menu.cpp
+     1>d:\~myprojects\marblegame\marblegame\classes\main_menu.cpp(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\~myprojects\marblegame\marblegame\classes\main_menu.cpp(131): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\~MyProjects\MarbleGame\\MarbleGame\MarbleGame.exe" /INCREMENTAL /NOLOGO freetype.lib glee.lib kazmath.lib opengl32.lib glu32.lib BulletDynamics_vs2010_debug.lib BulletCollision_vs2010_debug.lib LinearMath_vs2010_debug.lib BulletMultiThreaded_Debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MarbleGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\~MyProjects\MarbleGame\MarbleGame\MarbleGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\~MyProjects\MarbleGame\\MarbleGame\MarbleGame.lib" /MACHINE:X86 Debug\MarbleGame.exe.embed.manifest.res
+         Debug\button.obj
+         Debug\camera.obj
+         Debug\cannon.obj
+         Debug\charlies_scene.obj
+         Debug\collectible.obj
+         Debug\collidable_entity.obj
+         Debug\conveyor.obj
+         Debug\cube.obj
+         Debug\cylinder.obj
+         Debug\entity.obj
+         Debug\file_scene.obj
+         Debug\fracture.obj
+         Debug\freetypefont.obj
+         Debug\frustum.obj
+         Debug\global.obj
+         Debug\gui_image.obj
+         Debug\gui_scene.obj
+         Debug\keyboard.obj
+         Debug\lighting.obj
+         Debug\loading_scene.obj
+         Debug\main_menu.obj
+         Debug\mouse.obj
+         Debug\nicks_scene.obj
+         Debug\OBJmodel.obj
+         Debug\particles.obj
+         Debug\platform.obj
+         Debug\player.obj
+         Debug\scene.obj
+         Debug\scene_graph.obj
+         Debug\scene_manager.obj
+         Debug\sphere.obj
+         Debug\targa.obj
+         Debug\test_scene.obj
+         Debug\test_scene2.obj
+         Debug\trampoline.obj
+         Debug\waypoint.obj
+         Debug\glwindow.obj
+         Debug\main.obj
+         glee.lib(GLee.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glee.lib(GLee.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glee.lib(GLee.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\vc100.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btConeTwistConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btConeTwistConstraint.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btGeneric6DofConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btGeneric6DofConstraint.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btSequentialImpulseConstraintSolver.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btTypedConstraint.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btTypedConstraint.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btDiscreteDynamicsWorld.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletDynamics_vs2010_debug.lib(btRigidBody.obj) : warning LNK4099: PDB 'bulletdynamics_vs2010_debug.pdb' was not found with 'BulletDynamics_vs2010_debug.lib(btRigidBody.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletdynamics_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btDbvt.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btDbvt.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btDbvtBroadphase.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btDbvtBroadphase.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btDispatcher.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btDispatcher.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btOverlappingPairCache.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btOverlappingPairCache.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btQuantizedBvh.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btQuantizedBvh.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btActivatingCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btBoxBoxCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btBoxBoxDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btBoxBoxDetector.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCollisionDispatcher.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCollisionDispatcher.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCollisionObject.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCollisionObject.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCollisionWorld.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCollisionWorld.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCompoundCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexConcaveCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexConvexAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexPlaneCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btDefaultCollisionConfiguration.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btEmptyCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btGhostObject.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btGhostObject.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btManifoldResult.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btManifoldResult.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btSimulationIslandManager.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btSimulationIslandManager.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btSphereSphereCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btSphereTriangleCollisionAlgorithm.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btUnionFind.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btUnionFind.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(SphereTriangleDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(SphereTriangleDetector.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btBoxShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btBoxShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btBvhTriangleMeshShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCollisionShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCollisionShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConcaveShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConcaveShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexInternalShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexInternalShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexPolyhedron.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexPolyhedron.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexTriangleMeshShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexTriangleMeshShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btCylinderShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btCylinderShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btOptimizedBvh.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btOptimizedBvh.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btPolyhedralConvexShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btPolyhedralConvexShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btSphereShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btSphereShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btStridingMeshInterface.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btStridingMeshInterface.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btTriangleCallback.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btTriangleCallback.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btTriangleIndexVertexArray.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btTriangleIndexVertexArray.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btTriangleMesh.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btTriangleMesh.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btTriangleMeshShape.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btTriangleMeshShape.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btContinuousConvexCollision.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btContinuousConvexCollision.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btConvexCast.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btGjkConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btGjkConvexCast.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btGjkEpa2.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btGjkEpa2.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btGjkEpaPenetrationDepthSolver.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btGjkPairDetector.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btGjkPairDetector.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btMinkowskiPenetrationDepthSolver.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btPersistentManifold.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btPersistentManifold.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btPolyhedralContactClipping.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btPolyhedralContactClipping.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btRaycastCallback.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btRaycastCallback.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btSubSimplexConvexCast.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btSubSimplexConvexCast.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>BulletCollision_vs2010_debug.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: PDB 'bulletcollision_vs2010_debug.pdb' was not found with 'BulletCollision_vs2010_debug.lib(btVoronoiSimplexSolver.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\bulletcollision_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_vs2010_debug.lib(btAlignedAllocator.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_vs2010_debug.lib(btAlignedAllocator.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_vs2010_debug.lib(btConvexHullComputer.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_vs2010_debug.lib(btConvexHullComputer.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_vs2010_debug.lib(btGeometryUtil.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_vs2010_debug.lib(btGeometryUtil.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_vs2010_debug.lib(btQuickprof.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_vs2010_debug.lib(btQuickprof.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+     1>LinearMath_vs2010_debug.lib(btVector3.obj) : warning LNK4099: PDB 'linearmath_vs2010_debug.pdb' was not found with 'LinearMath_vs2010_debug.lib(btVector3.obj)' or at 'D:\~MyProjects\MarbleGame\MarbleGame\linearmath_vs2010_debug.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MarbleGame.exe.embed.manifest" /manifest Debug\MarbleGame.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         MarbleGame.vcxproj -> D:\~MyProjects\MarbleGame\\MarbleGame\MarbleGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\MarbleGame.unsuccessfulbuild".
+         Touching "Debug\MarbleGame.lastbuildstate".
+     1>Done Building Project "D:\~MyProjects\MarbleGame\MarbleGame\MarbleGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.77

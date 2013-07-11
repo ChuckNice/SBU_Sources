@@ -1,0 +1,10 @@
+2
+ZOMBIE_TYPE|6
+NORMAL_ZOMBIE_LEFT_STATE|./setup/images/NormalZombieLeft.png
+NORMAL_ZOMBIE_RIGHT_STATE|./setup/images/NormalZombieRight.png
+DYING_ZOMBIE_LEFT_STATE|./setup/images/DyingZombieLeft.png
+DYING_ZOMBIE_RIGHT_STATE|./setup/images/DyingZombieRight.png
+DEAD_ZOMBIE_LEFT_STATE|./setup/images/DeadZombieLeft.png
+DEAD_ZOMBIE_RIGHT_STATE|./setup/images/DeadZombieRight.png
+BRAIN_TYPE|1
+DEFAULT_STATE|./setup/images/Brain.png
